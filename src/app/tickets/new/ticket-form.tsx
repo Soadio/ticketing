@@ -2,7 +2,7 @@
 
 import { useActionState, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { createTicket } from "@/actions/tickets.actions";
+import { createTicket } from "@/actions/ticket.actions";
 import {toast} from "sonner";
 
 const NewTicketForm = () => {
