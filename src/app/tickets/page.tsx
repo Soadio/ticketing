@@ -3,6 +3,7 @@ import { getCurrentUser } from '@/lib/current-user';
 import { redirect } from 'next/navigation';
 import TicketItem from '@/components/TicketItem';
 
+
 const TicketsPage = async () => {
   const user = await getCurrentUser();
 
